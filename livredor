@@ -154,9 +154,6 @@ border-bottom:
   var name = document.getElementById("name").value;
   var message = document.getElementById("message").value;
 
-  function removeUppercase(str) {
-  return str.toLowerCase();
-
   // Remplacement de certains mots
  message = message.replace("mauvaises", "bonnes");
  message = message.replace("mauvaise", "bonne");
